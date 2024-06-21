@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <select id="timezone-selector">
+                <option value="local">Local</option>
+                <option value="UTC">UTC</option>
+                <option value="America/Sao_Paulo">São Paulo</option>
+                <option value="Europe/London">London</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+            </select>
+            <div id="clock"></div>
+        </div>
+        
+        <div class="timer-container">
+            <h2>Timer</h2>
+            <input type="number" id="timer-input" placeholder="Segundos" min="0">
+            <button id="start-timer">Iniciar Timer</button>
+            <div id="timer-display"></div>
+        </div>
+        
+        <div class="stopwatch-container">
+            <h2>Cronômetro</h2>
+            <div id="stopwatch-display">00:00:00</div>
+            <button id="start-stopwatch">Iniciar</button>
+            <button id="stop-stopwatch">Parar</button>
+            <button id="reset-stopwatch">Resetar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

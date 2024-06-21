@@ -1,0 +1,63 @@
+:root {
+    --primary-100: #0D6E6E;
+    --primary-200: #4a9d9c;
+    --primary-300: #afffff;
+    --accent-100: #FF3D3D;
+    --accent-200: #ffe0c8;
+    --text-100: #FFFFFF;
+    --text-200: #e0e0e0;
+    --bg-100: #0D1F2D;
+    --bg-200: #1d2e3d;
+    --bg-300: #354656;
+}
+
+body {
+    background-color: var(--bg-100);
+    color: var(--text-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.clock-container, .timer-container, .stopwatch-container {
+    background-color: var(--bg-200);
+    padding: 20px;
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock, #timer-display, #stopwatch-display {
+    font-size: 48px;
+    color: var(--primary-300);
+    margin-top: 10px;
+}
+
+select, input, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-200);
+    color: var(--text-100);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-300);
+}
