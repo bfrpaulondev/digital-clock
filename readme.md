@@ -6,10 +6,6 @@ Claro! Aqui está o README completo em código Markdown com as novas funcionalid
 
 Um projeto simples de relógio digital usando HTML, CSS e JavaScript, com opções adicionais de seleção de fuso horário, cronômetro e timer.
 
-## Demonstração
-
-![Demonstração do Relógio Digital](image-1.png)
-
 ## Descrição
 
 Este é um projeto de relógio digital que exibe a hora atual, permite a seleção de diferentes fusos horários, inclui um cronômetro e um timer. O relógio é estilizado usando variáveis de cores personalizadas e está centralizado na página.
